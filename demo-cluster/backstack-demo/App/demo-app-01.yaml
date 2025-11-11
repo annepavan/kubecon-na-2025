@@ -10,6 +10,6 @@ metadata:
   name: demo-app-01
   namespace: backstack-demo
 spec:
-  image: nginx:latest
+  image: nginx:otel
   crossplane:
     compositionUpdatePolicy: Automatic
